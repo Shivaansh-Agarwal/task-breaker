@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       cursive: ["Sacramento", "cursive"],
+      roboto: ["Roboto", "sans-serif"],
     },
     extend: {},
   },

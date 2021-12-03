@@ -12,7 +12,9 @@ export const Header = ({
       className="p-4 text-2xl sm:text-4xl flex flex-row justify-between items-center"
       style={{ minHeight, maxHeight }}
     >
-      <div className="dark:text-gray-200 font-semibold ">{title}</div>
+      <div className="dark:text-gray-200 font-semibold font-roboto">
+        {title}
+      </div>
       <div className="cursor-pointer">
         {isDarkModeEnabled ? (
           <MdLightMode
